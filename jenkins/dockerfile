@@ -1,1 +1,1 @@
-FROM jenkins/jenkins:2.393
+FROM hookcu329/jenkins:1.0.0
