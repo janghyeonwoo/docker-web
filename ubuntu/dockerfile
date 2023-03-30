@@ -1,0 +1,8 @@
+FROM hookcu329/ubuntu:1.0.2
+
+
+WORKDIR /home/pooney
+
+RUN  mkdir -p /var/develop/td20/script
+CMD ["/sbin/init"]
+

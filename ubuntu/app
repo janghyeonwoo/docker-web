@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "start"
+
+
+COMMAND=$1
+
+echo "${COMMAND}"
+
+if [ -z ${COMMAND} ]; then
+        echo "not command";
+        exit 1;
+fi
+
+
+if [ ${COMMAND} == "START"] ; then
+    echo "start"
+elif [ ${COMMAND} == "RESTART" ]; then
+    echo "RESTART"
+fi
+
+
+echo "ssss"

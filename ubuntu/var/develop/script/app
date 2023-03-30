@@ -1,0 +1,28 @@
+#!/bin/bash
+
+COMMAND=$1;
+
+echo "##################################################"
+echo "USEAGE : $COMMAND"
+echo "##################################################"
+
+
+
+if [ -z ${COMMAND} ]; then
+        echo "please input command !!";
+        exit 1;
+fi
+
+
+
+
+
+
+if [ ${COMMAND} == "start" ] ; then
+    echo "start"
+elif [ ${COMMAND} == "restart" ]; then
+    echo "RESTART"
+fi
+
+
+
